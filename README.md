@@ -29,3 +29,7 @@ software provided at-will, with no warranty or guarantee, etc. everything here i
 
     4b. seed with term
     `cat ./craigsposts.txt | markovfromstdin.py SEARCH-TERM`
+
+##zine
+
+this was all assembled in order to make a [free poetry zine!](https://github.com/ardendaily/markov-connections/raw/master/MissedConnections.pdf) (pdf - 60.7k)
