@@ -1,10 +1,22 @@
 #craigslist poetry
 
-[download the zine!](https://github.com/ardendaily/markov-connections/raw/master/MissedConnections.pdf)(pdf, 60.7k) ...or stick around to learn how it was all hacked together!
+i was feeling particularly lonely while looking for rooms to rent on 
+craigslist, and clicked over to missed connections to see if my soulmate 
+was looking back for me. i was discouraged to learn that there were so 
+many, because it meant that i'd probably never find that special 
+someone. never to back away from a challenge, i scraped together some 
+software to sift through craigslist missed connection ads using markov 
+chains, and poetry started to fall out. i decided, like i imagine most 
+people do at some point, to turn my sorriness into a zine.
+
+[download the zine!](https://github.com/ardendaily/markov-connections/raw/master/MissedConnections.pdf)(pdf, 60.7k)
+
+
+## tech involved
 
 a quick-and-dirty series of hacks to collect heaps of data from craigslist missed connections. bash scripts run curl jobs which are piped into python scripts for processing. 
 
-##use
+## software use
 
 software provided at-will, with no warranty or guarantee, etc. everything here is pretty simple.  this guide assumes you are running a GNU/Linux variant. miiiiight work on OSX?
 
@@ -31,7 +43,3 @@ software provided at-will, with no warranty or guarantee, etc. everything here i
 
     4b. seed with term
     `cat ./craigsposts.txt | markovfromstdin.py SEARCH-TERM`
-
-##zine
-
-this was all assembled in order to make a [free poetry zine!](https://github.com/ardendaily/markov-connections/raw/master/MissedConnections.pdf) (pdf - 60.7k)
