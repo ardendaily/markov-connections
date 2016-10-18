@@ -1,5 +1,7 @@
 #craigslist poetry
 
+[download the zine!](https://github.com/ardendaily/markov-connections/raw/master/MissedConnections.pdf)(pdf, 60.7k) ...or stick around to learn how it was all hacked together!
+
 a quick-and-dirty series of hacks to collect heaps of data from craigslist missed connections. bash scripts run curl jobs which are piped into python scripts for processing. 
 
 ##use
