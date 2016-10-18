@@ -36,7 +36,7 @@ software provided at-will, with no warranty or guarantee, etc. everything here i
 
     `bash 0002.sh > ./craigsposts.txt`
 
-4. generate some nonsense
+4. generate some poetry
 
     4a. non-directed output
     `cat ./craigsposts.txt | markovfromstdin.py`
