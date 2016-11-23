@@ -10,6 +10,7 @@ chains, and poetry started to fall out. i decided, like i imagine most
 people do at some point, to turn my sorriness into a zine.
 
 [issue one](https://github.com/ardendaily/markov-connections/raw/master/MissedConnections.pdf)(pdf, 61kB)
+
 [issue two](https://github.com/ardendaily/markov-connections/raw/master/MissedConnections2.pdf)(pdf, 62kB)
 
 ## tech involved
