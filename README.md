@@ -4,10 +4,10 @@ i was feeling particularly lonely while looking for rooms to rent on
 craigslist, and clicked over to missed connections to see if my soulmate 
 was looking back for me. i was discouraged to learn that there were so 
 many, because it meant that i'd probably never find that special 
-someone. never to back away from a challenge, i scraped together some 
-software to sift through craigslist missed connection ads using markov 
-chains, and poetry started to fall out. i decided, like i imagine most 
-people do at some point, to turn my sorriness into a zine.
+someone. i scraped together some software to sift through craigslist 
+missed connection ads using markov chains, and poetry started to fall 
+out. i decided, like i imagine most people do at some point, to turn my 
+sorriness into a zine.
 
 [issue one](https://github.com/ardendaily/markov-connections/raw/master/MissedConnections.pdf)(pdf, 61kB)
 
