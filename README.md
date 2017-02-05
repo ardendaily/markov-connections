@@ -15,20 +15,20 @@ sorriness into a zine.
 
 [issue three](https://github.com/ardendaily/markov-connections/raw/master/zines/MissedConnections3.pdf)(pdf, 62kB)
 
-## tech involved
-
-a quick-and-dirty series of hacks to collect heaps of data from craigslist missed connections. bash scripts run curl jobs which are piped into python scripts for processing. 
-
 ## software use
 ### new and improved! easy to use!
 
 software provided at-will, with no warranty or guarantee, etc. everything here is pretty simple.  this guide assumes you are running a GNU/Linux variant. miiiiight work on OSX?
+
+----------
 
 ### PATH ONE - use demo datasets 
 
 1. generate poetry!
 
     `$ python markovify data-samples/mc_data_0.txt`
+
+----------
 
 ### PATH TWO - download your own datasets!
 
