@@ -18,7 +18,11 @@ sorriness into a zine.
 ## software use
 ### new and improved! easy to use!
 
-software provided at-will, with no warranty or guarantee, etc. everything here is pretty simple.  this guide assumes you are running a GNU/Linux variant. miiiiight work on OSX?
+the gist of it is that we use markovify.py on large text files and weird stuff comes out the other side. 
+
+grittier details on how to use the software can be found in the markovify.py helptext. and some secret goodies.
+
+finally, i'm assuming you have python installed. markovify.py is free of any external dependencies-- it only uses built-ins! you could probably use this on windows if you really wanted to!
 
 ----------
 
@@ -26,7 +30,7 @@ software provided at-will, with no warranty or guarantee, etc. everything here i
 
 1. generate poetry!
 
-    `$ python markovify data-samples/mc_data_0.txt`
+    `$ python markovify.py data-samples/mc_data_0.txt`
 
 ----------
 
