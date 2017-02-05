@@ -9,15 +9,18 @@ missed connection ads using markov chains, and poetry started to fall
 out. i decided, like i imagine most people do at some point, to turn my 
 sorriness into a zine.
 
-[issue one](https://github.com/ardendaily/markov-connections/raw/master/MissedConnections.pdf)(pdf, 61kB)
+[issue one](https://github.com/ardendaily/markov-connections/raw/master/zines/MissedConnections.pdf)(pdf, 61kB)
 
-[issue two](https://github.com/ardendaily/markov-connections/raw/master/MissedConnections2.pdf)(pdf, 62kB)
+[issue two](https://github.com/ardendaily/markov-connections/raw/master/zines/MissedConnections2.pdf)(pdf, 62kB)
+
+[issue three](https://github.com/ardendaily/markov-connections/raw/master/zines/MissedConnections3.pdf)(pdf, 62kB)
 
 ## tech involved
 
 a quick-and-dirty series of hacks to collect heaps of data from craigslist missed connections. bash scripts run curl jobs which are piped into python scripts for processing. 
 
 ## software use
+### new and improved! easy to use!
 
 software provided at-will, with no warranty or guarantee, etc. everything here is pretty simple.  this guide assumes you are running a GNU/Linux variant. miiiiight work on OSX?
 
@@ -25,22 +28,10 @@ software provided at-will, with no warranty or guarantee, etc. everything here i
 
     `pip install bs4`
 
-    `pip install pymarkovchain`
-
-    `apt-get install curl`
-
 2. gather links
 
-    `bash 0001.sh > ./craigslinks.txt`
+    `bash automatic.sh`
 
-3. gather posts from links
+3. generate poems!
 
-    `bash 0002.sh > ./craigsposts.txt`
-
-4. generate some poetry
-
-    4a. non-directed output
-    `cat ./craigsposts.txt | markovfromstdin.py`
-
-    4b. seed with term
-    `cat ./craigsposts.txt | markovfromstdin.py SEARCH-TERM`
+    `python markovify.py mc_data_DATE.txt`

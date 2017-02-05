@@ -15,7 +15,7 @@ do
 		-H "Referer: http://$PREFIX.craigslist.org/search/mis" \
 		-H 'Connection: keep-alive' \
 		--compressed \
-		--silent | grep data-id | ./craigslinks.py $PREFIX >> craigslinks.txt
+		--silent | grep data-id | ./craigslinks.py $PREFIX 
 		sleep 0.1
 	done
 done

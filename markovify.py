@@ -2,8 +2,6 @@
 
 TO DO
 
-syllable counts??? without dependencies???
-
 treat punctuation as 'a word' ::
 	["string...", "xx"] -> ["string", "...", "xx"]
 	(still strip newlines tho??)
@@ -52,7 +50,19 @@ def mDictFromString( _string ):
 	'''
 	the structure: for each word in corpus, sanitize and add
 	to dict as key WORD. then iterate across corpus by dict keys
-	and add word N+1 to key WORD's array. 
+	and add word N+1 to key WORD's NEXT array. Same goes for PREV
+	but in reverse.
+
+	mDict {
+		WORD {
+			PREV: [],
+			NEXT: [],
+			SYLLABLES: int
+		},
+		WORD2 {},
+		...
+	}
+
 
 	since duplicate values are added to arrays, statistical probability
 	is built in.
