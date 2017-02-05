@@ -1,6 +1,6 @@
 #!/bin/bash
 IFMODTIME=$(date +"%a, %d %b %Y %T %Z")
-for LINK in $(cat craigslinks.txt | tr "\n" " ")
+for LINK in $(cat craigslinks_nodupes.txt | tr "\n" " ")
 do
 	curl --silent $LINK \
 	-H 'DNT: 1' \
@@ -12,6 +12,6 @@ do
 	-H 'Cache-Control: max-age=0' \
 	-H 'Connection: keep-alive' \
 	-H 'If-Modified-Since: $IFMODTIME' \
-	--compressed | ./craigsposts.py >> missedconnections.txt
+	--compressed | ./craigsposts.py >> missedconnections_nodupes.txt
 	sleep 0.1
 done
