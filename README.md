@@ -40,8 +40,8 @@ software provided at-will, with no warranty or guarantee, etc. everything here i
 
 2. gather links
 
-    `bash automatic.sh`
+    `$ bash automatic.sh`
 
 3. generate poems!
 
-    `python markovify.py mc_data_$(DATE -I).txt`
+    `$ python markovify.py mc_data_$(DATE -I).txt`
