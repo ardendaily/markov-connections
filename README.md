@@ -24,9 +24,19 @@ a quick-and-dirty series of hacks to collect heaps of data from craigslist misse
 
 software provided at-will, with no warranty or guarantee, etc. everything here is pretty simple.  this guide assumes you are running a GNU/Linux variant. miiiiight work on OSX?
 
-1. install dependencies. tools require curl.
+### PATH ONE - use demo datasets 
 
-    `pip install bs4`
+1. generate poetry!
+
+    `$ python markovify data-samples/mc_data_0.txt`
+
+### PATH TWO - download your own datasets!
+
+1. install dependencies
+
+    `$ sudo apt-get install python-pip` or similar for your distro
+
+    `$ sudo pip install bs4`
 
 2. gather links
 
@@ -34,4 +44,4 @@ software provided at-will, with no warranty or guarantee, etc. everything here i
 
 3. generate poems!
 
-    `python markovify.py mc_data_DATE.txt`
+    `python markovify.py mc_data_$(DATE -I).txt`
